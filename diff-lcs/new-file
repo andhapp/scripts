@@ -1,0 +1,33 @@
+<blockquote>
+ <p>You have reached the site of Shoes, how may we help you?</p>
+ </blockquote>
+ <p>Shoes is a toolkit for writing graphical apps easily and artfully using Ruby.<br />
+ Unlike most other <span class="caps">GUI</span> toolkits, Shoes is <em>designed</em> with the &#8220;Average Joe&#8221; in mind. Really, it&#8217;s easy!</p>
+
+ <p>Following are a few directions that can lead you on the right path of Shoes Enlightenment. You&#8217;ll be there in no time!</p>
+ <p>To the <strong>north</strong>, you find <a href="/downloads">downloads</a>, for Windows, Mac OS X, and Linux.<br />
+ To the <strong>north-west</strong>, there is <a href="http://the-shoebox.org">The Shoebox</a> with tons of little demos and apps for you to look at and try o
+
+ <p>To the <strong>west</strong>, there are <a href="/tutorials">tutorials</a>, so you can learn the basics of Shoes.<br />
+ To the <strong>east</strong>, a <a href="http://wiki.github.com/shoes/shoes">Wiki</a>, a place where you can share ideas about Shoes. Near it, the <a href="/wiki">experimental wiki</a> stands.</p>
+ <p>To the <strong>south-east</strong>, the <a href="/manual/Hello.html">holy book of Shoes</a> (a.k.a. the manual) rests upon a jewel-covered stand.<br />
+
+ To the <strong>south-west</strong>, you will encounter the Shoes <a href="http://rdoc.info/projects/why/shoes">RDocs</a> (technical documentation).<br />
+ Finally, to the <strong>south</strong>, you find the <a href="http://github.com/shoes/shoes">latest source code</a>.</p>
+ <h2>So, how does all this work?</h2>
+ <p>Well, a simple button for example:</p>
+
+ <pre class="brush: ruby;">
+ Shoes.app {
+   button("Click me!") {
+     alert("Good job.")
+   }
+ }
+ </pre>
+ <p>Since Shoes is based on <a href="http://ruby-lang.org/">Ruby</a>, it is very easy to use. Download <a href="http://cloud.github.com/downloads/devyn/shoes-web/whys-poignant-guide-to-ruby.pdf">why&#8217;s poignant guide to ruby</a>. You might also wana check out<br />
+ the <a href="http://cloud.github.com/downloads/mislav/poignant-guide/soundtrack.zip">soundtrack</a> of why&#8217;s Ruby book.</p>
+ <p>You can write a little <a href="http://twitter.com/">Twitter</a> app in Shoes in less than an hour! A little feed reader is no obstacle! Want a little chat app? No problem! <em>You</em> are the limit to your creation.</p>
+
+ <p>So don&#8217;t be afraid, try it out!</p>
+ <hr />
+ <p>Many thanks to <a href="http://www.heroku.com">Heroku</a> for hosting this website!</p>

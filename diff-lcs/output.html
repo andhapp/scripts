@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>diff old-file new-file</title>
+    <style>
+  body { 
+    margin: 0; 
+    font: 12px Verdana;
+  }
+  .diff {
+    border: 1px solid black;
+    margin: 1em 2em;
+  }
+  pre {
+    padding-left: 1em;
+    margin: 0;
+    font-family: Lucida, Courier, monospaced;
+		white-space: pre;
+  }
+  
+  .match { }
+  .only_a {
+    background-color: #fdd;
+  }
+  .only_b {
+    background-color: #ddf;
+    border-left: 3px solid blue
+  }
+  h1 { margin-left: 2em; }
+    </style>
+  </head>
+  <body>
+    <h1>diff&nbsp;
+        <span class="only_a">old-file</span>&nbsp;
+        <span class="only_b">new-file</span>
+    </h1>
+    <div class="diff">
+<pre class="match"><blockquote></pre>
+<pre class="match"> <p>You have reached the site of Shoes, how may we help you?</p></pre>
+<pre class="match"> </blockquote></pre>
+<pre class="match"> <p>Shoes is a toolkit for writing graphical apps easily and artfully using Ruby.<br /></pre>
+<pre class="match"> Unlike most other <span class="caps">GUI</span> toolkits, Shoes is <em>designed</em> with the &#8220;Average Joe&#8221; in mind. Really, it&#8217;s easy!</p></pre>
+<pre class="match"></pre>
+<pre class="match"> <p>Following are a few directions that can lead you on the right path of Shoes Enlightenment. You&#8217;ll be there in no time!</p></pre>
+<pre class="match"> <p>To the <strong>north</strong>, you find <a href="/downloads">downloads</a>, for Windows, Mac OS X, and Linux.<br /></pre>
+<pre class="only_a"> -  To the <strong>north-west</strong>, there is <a href="http://the-shoebox.org">The Shoebox</a> with tons of little demos and apps for you to look at and try out.<br /></pre>
+<pre class="only_a"> -  To the <strong>north-east</strong>, you find an intriguing tale <a href="http://cloud.github.com/downloads/shoes/shoes/nks.pdf">Nobody Knows Shoes</a> by the legendary _why, our creator.</p></pre>
+<pre class="only_b"> +  To the <strong>north-west</strong>, there is <a href="http://the-shoebox.org">The Shoebox</a> with tons of little demos and apps for you to look at and try o</pre>
+<pre class="match"></pre>
+<pre class="match"> <p>To the <strong>west</strong>, there are <a href="/tutorials">tutorials</a>, so you can learn the basics of Shoes.<br /></pre>
+<pre class="match"> To the <strong>east</strong>, a <a href="http://wiki.github.com/shoes/shoes">Wiki</a>, a place where you can share ideas about Shoes. Near it, the <a href="/wiki">experimental wiki</a> stands.</p></pre>
+<pre class="match"> <p>To the <strong>south-east</strong>, the <a href="/manual/Hello.html">holy book of Shoes</a> (a.k.a. the manual) rests upon a jewel-covered stand.<br /></pre>
+<pre class="match"></pre>
+<pre class="match"> To the <strong>south-west</strong>, you will encounter the Shoes <a href="http://rdoc.info/projects/why/shoes">RDocs</a> (technical documentation).<br /></pre>
+<pre class="match"> Finally, to the <strong>south</strong>, you find the <a href="http://github.com/shoes/shoes">latest source code</a>.</p></pre>
+<pre class="match"> <h2>So, how does all this work?</h2></pre>
+<pre class="match"> <p>Well, a simple button for example:</p></pre>
+<pre class="match"></pre>
+<pre class="match"> <pre class="brush: ruby;"></pre>
+<pre class="match"> Shoes.app {</pre>
+<pre class="match">   button("Click me!") {</pre>
+<pre class="match">     alert("Good job.")</pre>
+<pre class="match">   }</pre>
+<pre class="match"> }</pre>
+<pre class="match"> </pre></pre>
+<pre class="only_b"> +  <p>Since Shoes is based on <a href="http://ruby-lang.org/">Ruby</a>, it is very easy to use. Download <a href="http://cloud.github.com/downloads/devyn/shoes-web/whys-poignant-guide-to-ruby.pdf">why&#8217;s poignant guide to ruby</a>. You might also wana check out<br /></pre>
+<pre class="only_b"> +  the <a href="http://cloud.github.com/downloads/mislav/poignant-guide/soundtrack.zip">soundtrack</a> of why&#8217;s Ruby book.</p></pre>
+<pre class="only_b"> +  <p>You can write a little <a href="http://twitter.com/">Twitter</a> app in Shoes in less than an hour! A little feed reader is no obstacle! Want a little chat app? No problem! <em>You</em> are the limit to your creation.</p></pre>
+<pre class="match"></pre>
+<pre class="only_b"> +  <p>So don&#8217;t be afraid, try it out!</p></pre>
+<pre class="match"> <hr /></pre>
+<pre class="match"> <p>Many thanks to <a href="http://www.heroku.com">Heroku</a> for hosting this website!</p></pre>
+    </div>
+  </body>
+</html>
