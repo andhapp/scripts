@@ -1,0 +1,4 @@
+<p>Instead of using a custom framework, Leo's plugin exposes two endpoints on your Nginx server: one for the subscribers, and one for the publisher. The clients open long-polling connections to a channel on the Nginx server and start waiting for data. Meanwhile, the publisher simply POST's the data to Nginx and the plugin then does all the heavy lifting for you by distributing the data to the waiting clients. This means that the publisher never actually serves the data directly, it is simply an event generator! It is hard to make it any simpler then that.
+</p>
+<p>
+Best of all, it only gets better from here. Both the client and the publisher can create arbitrary channels, and the plugin is also capable of message queuing, which means that the Nginx server will store intermediate messages if the client is offline. Queued messages can be expired based on time, size of the waiting stack, or through a memory limit.</p>
