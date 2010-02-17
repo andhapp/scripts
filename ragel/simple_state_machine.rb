@@ -15,7 +15,7 @@ class << self
 	private :_hello_key_offsets, :_hello_key_offsets=
 end
 self._hello_key_offsets = [
-	0, 0, 1
+	0, 0
 ]
 
 class << self
@@ -23,7 +23,7 @@ class << self
 	private :_hello_trans_keys, :_hello_trans_keys=
 end
 self._hello_trans_keys = [
-	104, 104, 0
+	104, 0
 ]
 
 class << self
@@ -31,7 +31,7 @@ class << self
 	private :_hello_single_lengths, :_hello_single_lengths=
 end
 self._hello_single_lengths = [
-	0, 1, 1
+	0, 1
 ]
 
 class << self
@@ -39,7 +39,7 @@ class << self
 	private :_hello_range_lengths, :_hello_range_lengths=
 end
 self._hello_range_lengths = [
-	0, 0, 0
+	0, 0
 ]
 
 class << self
@@ -47,7 +47,7 @@ class << self
 	private :_hello_index_offsets, :_hello_index_offsets=
 end
 self._hello_index_offsets = [
-	0, 0, 2
+	0, 0
 ]
 
 class << self
@@ -55,7 +55,7 @@ class << self
 	private :_hello_trans_targs, :_hello_trans_targs=
 end
 self._hello_trans_targs = [
-	2, 0, 2, 0, 0
+	1, 0, 0
 ]
 
 class << self
@@ -63,7 +63,7 @@ class << self
 	private :_hello_trans_actions, :_hello_trans_actions=
 end
 self._hello_trans_actions = [
-	1, 0, 1, 0, 0
+	1, 0, 0
 ]
 
 class << self
@@ -73,7 +73,7 @@ self.hello_start = 1;
 class << self
 	attr_accessor :hello_first_final
 end
-self.hello_first_final = 2;
+self.hello_first_final = 1;
 class << self
 	attr_accessor :hello_error
 end
@@ -220,4 +220,5 @@ when 0 then
 	puts "p: #{p} pe: #{pe}"
 end
 
-run_machine "hh"
+run_machine "h"
+run_machine "x"

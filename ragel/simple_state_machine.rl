@@ -16,3 +16,6 @@ def run_machine(data)
 	puts "Finished. The state of the machine is: #{cs}"
 	puts "p: #{p} pe: #{pe}"
 end
+
+run_machine "h"
+run_machine "x"
