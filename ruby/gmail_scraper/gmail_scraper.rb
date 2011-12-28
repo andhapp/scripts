@@ -1,11 +1,11 @@
 require 'bundler'
 Bundler.require
 
-GMAIL_ADDRESS = 'http://www.gmail.com'
+END_POINT = 'http://www.gmail.com'
 REGEX_TO_MATCH = /^Viatask Invi/
 
 agent = Mechanize.new
-page = agent.get 
+page = agent.get(END_POINT)
 
 form = page.forms.first
 puts "Please enter your email:"
